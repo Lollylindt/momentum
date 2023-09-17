@@ -1,0 +1,68 @@
+body {
+    font-family: 'Luckiest Guy', cursive;
+    text-align: center;
+    
+}
+ul { padding-left:15px; list-style-position:outside; }
+li {
+    list-style-position : inside;
+    list-style-type: '♥'; 
+    
+    padding-left:-5px; }
+
+    li::marker {
+    color: rgb(247, 69, 69);
+}
+
+.hidden{
+    display: none;
+}
+
+img {
+    position:absolute;
+    width:100%;
+    
+    left: 0px;
+    top: 0px;
+    right:0px;
+    bottom:0px;
+    z-index: -1;
+    opacity:80%;
+    overflow: hidden;
+}
+
+#greeting {
+ font-size: 3.5rem;
+}
+
+#clock {
+    margin-top: 120px;
+}
+
+#weather {
+    margin-top: 50px;
+}
+
+::placeholder {
+    color:rgb(125, 123, 244);
+    font-family: 'Luckiest Guy', cursive;
+}
+
+button {
+    width: 20px;
+    padding: 0;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    
+    font-size: 12px;
+    background-color: transparent;
+    text-align: center;
+    cursor: pointer;
+    box-sizing: border-box;
+    display: transparent;
+    transition: .4s;
+}
+button:hover {
+    background-color: black;
+    
+}
