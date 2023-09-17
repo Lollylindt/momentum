@@ -1,7 +1,7 @@
 body {
     font-family: 'Luckiest Guy', cursive;
     text-align: center;
-    
+    background-repeat: repeat;
 }
 ul { padding-left:15px; list-style-position:outside; }
 li {
@@ -21,7 +21,7 @@ li {
 img {
     position:absolute;
     width:100%;
-    background-repeat: repeat;
+    
     left: 0px;
     top: 0px;
     right:0px;
